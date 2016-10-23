@@ -2,7 +2,7 @@
 
 title: prashanthvarma
 url: "http://prashanthvarma.in"
-baseurl: ""
+baseurl: "/about"
 
 # This will show up at the top of index page
 site_heading: >
