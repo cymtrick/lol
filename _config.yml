@@ -45,7 +45,7 @@ facebook_id: prashanthvarmadomma
 favicon: true
 favicon_location: "images/favicon.ico"
 
-profile_picture:
+profile_picture:"images/pp.jpg"
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id:  # GA Tracking ID
