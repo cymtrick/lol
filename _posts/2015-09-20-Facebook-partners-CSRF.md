@@ -86,10 +86,10 @@ Date: Mon, 24 Aug 2015 10:58:38 GMT
 {% endhighlight %}
 
 
-Timeline:
-Bug reported:20 August ,2015
-Bug acknowledged:21 August, 2015
-Bug Poc sent: 24 August, 2015
-Bug triaged:3 September,2015
-Bug fixed:18 September, 2015 (Now response is 400 if csrf tokens are missing)
+Timeline:<br>
+Bug reported:20 August, 2015<br>
+Bug acknowledged:21 August, 2015<br>
+Bug Poc sent: 24 August, 2015<br>
+Bug triaged:3 September,2015<br>
+Bug fixed:18 September, 2015 (Now response is 400 if csrf tokens are missing)<br>
 Bug bounty awarded :19 September, 2015 . Facebook awarded me 5000$
