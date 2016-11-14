@@ -29,7 +29,7 @@ Proof of concept :
 <iframe src="https://drive.google.com/file/d/0BycKB4yADa3bZk4zMU9TdUFQMzg/preview" width="640" height="480"></iframe>
 
 
-Code it self can't do any thing without `client_secret` and same redirect url (instagrampartners.com) for explict authentication from server side.
+Code it self can't do any thing without `client_secret` and same redirect url (instagrampartners.com) is required for explict authentication from server side.
 Linkshim was not allowing url fragments. When `response_type` is set to `token`, It returns in the from of fragment. So anything
 after `#` is negelected by linkshim. I used oauth to bypass the restrictions by linkshim.
 
