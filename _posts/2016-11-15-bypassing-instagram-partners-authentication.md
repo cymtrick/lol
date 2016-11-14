@@ -1,4 +1,4 @@
->Getting access token of instagram partner's account through referrer leakage using linkshim
+>Getting access token of instagram partners account through referrer leakage using linkshim
 
 This issue allowed me to take over the insta partners account code and access_token.
 
