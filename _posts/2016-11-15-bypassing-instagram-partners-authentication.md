@@ -20,6 +20,7 @@ Linkshim bypass url :
 >http://l.instagram.com/?e%3DATOXOxtB9yyG_wGoXgyErxBx3KAgobQMKybv-L8O_PEdXI0Z4rqoawet2349Lw%26u%3Dhttp://google.com
 
 Oauth bypass url : 
+
 >https://www.facebook.com/v2.2/dialog/oauth?client_id=1672090479675902&redirect_uri=http%3A%2F%2Fl.instagram.com%2F%3Fe%3DATNqsDRx0x7ZVfVF282iVvW4zr6QOhmME_M35bNw6rHrt6L30ajQ2t-YStDi6g%26u%3Dhttp%3A%2F%2Fgoogle.com%2F&scope=public_profile%2Cemail&response_type=code
 
 
