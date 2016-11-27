@@ -7,12 +7,15 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
- <script type="text/javascript" src="https://prashanthvarmadomma.github.io/js/jquery.zoom.min.js"></script>
+ <script type="text/javascript" src="https://prashanthvarmadomma.github.io/js/jquery.elevatezoom.js"></script>
 <script type="text/javascript">
 	
-	 $('.carousel.carousel-slider').carousel({full_width: true});
+
       
-$('#a.photo').zoom();
+$(document).ready(function(){
+$("#img_01").elevateZoom();
+});
+
 
       function changeimg(data)
       {
@@ -205,7 +208,7 @@ width: 100%;
 <div id="main">
 	<center> Notes Section</center>
 	 
-<img src="images/notebook-media-1.jpeg" id="a.photo" width="500" height="300" style="margin-top: 10px; " />
+<img src="images/notebook-media-1.jpeg" data-zoom-image="images/notebook-media-1.jpeg" id="a.photo" width="500" height="300" style="margin-top: 10px; " />
 
 <span style="cursor: pointer">
 <img src="images/notebook-media-1.jpeg"  width="100" height="50" style="margin-right: 10px;"  onclick="changeimg('1')" />
