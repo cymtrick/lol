@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lastchannel</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+ <script type="text/javascript" src="js/jquery.zoom.min.js"></script>
+<script type="text/javascript">
+	
+	 $('.carousel.carousel-slider').carousel({full_width: true});
+      
+      $(document).ready(function(){
+  $('a.photo').zoom({url: 'images/notebook-media-1.jpeg'});
+});
+
+</script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+          
+	<style>
+	@font-face {
+    font-family: gotham;
+    src: url(css/Fonts/Gotham/Gotham-Rounded-Book_.ttf);
+}
+
+		html
+		{
+			font-family: gotham;
+		}
+body
+{
+	margin: 0;
+}
+label
+{
+	font-size: 14px;
+}
+#header
+{
+height: 40px;
+width: 100%;
+
+}
+#shopping_cart
+{
+		float: right;
+	margin-top: 10px;
+	margin-right: 2%;
+	
+}
+
+#button_login
+{
+
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	background-color:#1facf2;
+}
+#nav
+{
+	width: 200px;
+	height: 1000px;
+	float: right;
+	position: fixed;
+	margin-top: 3%;
+}
+#main
+{
+	width: 600px;
+	height: 1000px;
+}
+
+</style>
+</head>
+<body>
+<header id="header">
+<a href="/#"><img src="images/logo.png" width="120" height="40" style="margin-top: 10px;margin-left: 4px;" /></a>
+
+
+  <a class="btn-floating btn-large waves-effect waves-light red" id="shopping_cart" >
+      <i class="material-icons">shopping_cart</i>
+      </a>
+      <a class="btn waves-effect waves-light" id="button_login" href='#modal1'  >login</a>
+
+    
+
+</header>
+<div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>TOTAL AMOUNT</h4>
+      <p>Original Amount: 100 rs/-</p>
+      <p>VAT: 10 rs/-</p>
+      <p>Total: 110 rs/-</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+<!--filters -->
+
+<div id="nav">
+<h5>Filters</h5>
+<h6>Book Type</h6>
+	<form action="#" style="width: 200px; ">
+    <p>
+      <input name="group1" type="radio" id="test1" />
+      <label for="test1">  King size</label>
+    </p>
+    <p>
+      <input name="group1" type="radio" id="test2" />
+      <label for="test2"> A4</label>
+    </p>
+    <p>
+      <input name="group1" type="radio" id="test3"  />
+      <label for="test3"> Long book</label>
+    </p>
+      <p>
+        <input name="group1" type="radio" id="test4"  />
+        <label for="test4"> Bar book</label>
+
+    </p>
+     <p>
+        <input name="group1" type="radio" id="test5"  />
+        <label for="test5">  College long book
+</label>
+      
+    </p>
+    <p>
+        <input name="group1" type="radio" id="test6"  />
+        <label for="test6">  Drawing book
+</label>
+      
+    </p>
+  </form>
+
+
+  <h6>Styles</h6>
+	<form action="#" style="width: 200px; ">
+    <p>
+      <input name="group1" type="radio" id="test7" />
+      <label for="test7">  Sports</label>
+    </p>
+    <p>
+      <input name="group1" type="radio" id="test8" />
+      <label for="test8">   Music</label>
+    </p>
+    <p>
+      <input name="group1" type="radio" id="test9"  />
+      <label for="test9">  Scenery</label>
+    </p>
+      <p>
+        <input name="group1" type="radio" id="test10"  />
+        <label for="test10">  Comic</label>
+
+    </p>
+     <p>
+        <input name="group1" type="radio" id="test11"  />
+        <label for="test11">    Devilish
+</label>
+      
+    </p>
+    <p>
+        <input name="group1" type="radio" id="test12"  />
+        <label for="test12">  Drawing book
+</label>
+      
+    </p>
+  </form>
+<h6>Price Range (Rs.)</h6>
+
+<input type="range" id="myRange" value="100" style=" margin-top:10px; " />
+
+</div>
+
+
+
+<!--main notebook section -->
+<center>
+<div id="main">
+	<center> Notes Section</center>
+	 
+<img src="images/notebook-media-1.jpeg" id="a.photo" width="500" height="300" style="margin-top: 10px;" />
+
+
+<p>  <span>  <b>Book size</b> : 244x147mm</span>
+
+  <span>  <b>Book Brand</b> : lastchannel</span>
+
+   <span> <b>No of pages</b> : 200</span>
+
+   <br><center><span> <b>Cover type</b> : soft bound</span>
+
+    <span><b>M.R.P </b>: 100Rs/- </span></center>
+
+    <br><span><a class="btn waves-effect waves-light"  href='#modal1'  >Add to cart</a>  </span>
+
+    </p>
+        
+</div>
+</center>
+</body>
+</html>
