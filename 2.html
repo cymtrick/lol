@@ -7,14 +7,12 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
- <script type="text/javascript" src="js/jquery.zoom.min.js"></script>
+ <script type="text/javascript" src="https://prashanthvarmadomma.github.io/js/jquery.zoom.min.js"></script>
 <script type="text/javascript">
 	
 	 $('.carousel.carousel-slider').carousel({full_width: true});
       
-      $(document).ready(function(){
-  $('a.photo').zoom({url: 'images/notebook-media-1.jpeg'});
-});
+$('#a.photo').zoom();
 
       function changeimg(data)
       {
@@ -191,7 +189,12 @@ width: 100%;
   </form>
 <h6>Price Range (Rs.)</h6>
 
-<input type="range" id="myRange" value="100" style=" margin-top:10px; " />
+<form action="#">
+    <p class="range-field">
+      <input type="range" id="test13" min="0" max="100" />
+    </p>
+  </form>
+        
 
 </div>
 
