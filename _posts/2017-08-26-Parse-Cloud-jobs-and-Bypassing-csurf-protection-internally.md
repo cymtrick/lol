@@ -1,8 +1,8 @@
------
+---
 title: Parse Cloud jobs and Bypassing csurf protection internally
 layout: post
 description: Csurf can be used for protecting requests against csrf by individual routes or all at once. I had been searching for blogs that explain how to bypass protection internally
------
+---
 > Csurf can be used for protecting requests against csrf by individual routes or all at once. I had been searching for blogs that explain how to bypass protection internally when all routes are protected, No one explained it clearly.
 
 When you enable csurf in your nodejs app. 
