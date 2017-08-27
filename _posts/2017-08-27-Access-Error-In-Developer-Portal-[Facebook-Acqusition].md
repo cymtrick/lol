@@ -44,8 +44,11 @@ the auth bearer was working.
 Team looked into the issue and fixed it.
 
 After fix:
+
 {% highlight json %}
+
 {"error":"Bad auth, check token\/params","code":"no-auth"}
+
 {% endhighlight %}
 
 Timeline:
