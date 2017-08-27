@@ -5,7 +5,7 @@ Description: developer Auth token not expired after removing developer from shar
 > Developer Auth token not expired after removing developer from shared apps,One of facebook acquisitions.
 
 Usually Developer portals have invitation option for admin roles or developer roles. One of the facebook acqusitions is having a weird
-functionality of adding users directly without permission, but this is not main issue. When invited he is provided with a auth bearer to make api calls
+functionality of adding users directly without permission, but this is not main issue. When invited developer is provided with a auth bearer to make api calls
 .This is how it functionality works
 
 {% highlight curl %}
