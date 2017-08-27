@@ -36,8 +36,13 @@ the auth bearer was working.Team looked into the issue and fixed it.
 
 Timeline:
 Reported on 31 January 2017
+
 Triaged on 1 February 2017
+
 Team Asked for Clarification on 16 March 2017
+
 Further Clarification sent on 18 March 2017
+
 Fixed on 18 May 2017
+
 Bounty awarded on 6 June 2017
