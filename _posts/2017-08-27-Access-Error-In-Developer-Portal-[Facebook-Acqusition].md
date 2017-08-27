@@ -1,9 +1,9 @@
 ---
-title : Access Error in developer portal,One of facebook acquisitions. 
+title : Access Error in developer portal in one of the facebook acquisitions. 
 description: developer Auth token not expired after removing developer from shared apps
 url : https://prashanthvarmadomma.github.io/Access-Error-In-Developer-Portal-Facebook-Acqusition.html
 ---
-> Developer Auth token not expired after removing developer from shared apps,One of facebook acquisitions.
+> Developer Auth token not expired after removing developer from shared apps.
 
 Usually Developer portals have invitation option for admin roles or developer roles. One of the facebook acqusitions is having a weird
 functionality of adding users directly without permission, but this is not main issue. When invited developer is provided with a auth bearer to make api calls
