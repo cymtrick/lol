@@ -7,7 +7,7 @@ url : https://prashanthvarmadomma.github.io/Access-Error-In-Developer-Portal-Fac
 
 Usually Developer portals have invitation option for admin roles or developer roles. One of the facebook acqusitions is having a weird
 functionality of adding users directly without permission, but this is not main issue. When invited developer is provided with a auth bearer to make api calls
-.This is how it functionality works
+.This is how functionality works
 
 {% highlight shell %}
 
