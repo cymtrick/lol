@@ -1,6 +1,6 @@
 ---
-Title : Access Error in developer portal,One of facebook acquisitions. 
-Description: developer Auth token not expired after removing developer from shared apps
+title : Access Error in developer portal,One of facebook acquisitions. 
+description: developer Auth token not expired after removing developer from shared apps
 ---
 > Developer Auth token not expired after removing developer from shared apps,One of facebook acquisitions.
 
