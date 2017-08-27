@@ -12,13 +12,11 @@
     {% endif %}
     {% if page.description %}
         {% assign desc = page.description %}
-    {% else %}
-        {% assign desc = site.description %}
     {% endif %}
     {% if page.url %}
-        {% assign url = site.url | append: site.baseurl | append: page.url %}
+        {% assign url =  append: page.url %}
     {% else %}
-        {% assign url = site.url | append: site.baseurl | append: page.url %}
+        {% assign url =  append: page.url %}
     {% endif %}
     <meta name="description" content="{{ desc }}">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,500,700|Ubuntu:400,300,300italic,500,700|Montserrat' rel='stylesheet' type='text/css'>
@@ -33,7 +31,7 @@
     {% endif %}
     <!-- Facebook Open Graph -->
     <meta name="og:description" content="{{ desc }}">
-    <meta name="og:title" content="{{ site.title }}">
+    <meta name="og:title" content="{{ page.title }}">
     <meta name="og:url" content="{{ url }}">
     <meta name="og:type" content="article">
     {% if site.og_image %}
@@ -44,7 +42,7 @@
     {% endif %}
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ desc }}">
     <meta name="twitter:url" content="{{ url }}">
     {% if site.twitter_image %}
