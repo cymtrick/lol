@@ -1,6 +1,7 @@
 ---
 title : Access Error in developer portal,One of facebook acquisitions. 
 description: developer Auth token not expired after removing developer from shared apps
+url : https://prashanthvarmadomma.github.io/Access-Error-In-Developer-Portal-Facebook-Acqusition.html
 ---
 > Developer Auth token not expired after removing developer from shared apps,One of facebook acquisitions.
 
