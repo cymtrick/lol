@@ -35,7 +35,7 @@ Response
 
 {% endhighlight %}
 
-Even after removing the developer, If he still has access to the previous bearer api calls were returning response.
+Even after removing the developer, If he still has access to the previous bearer, api calls were returning response.
 
 When reported to facebook they replied it might be due to cache issues and may take minutes to delete. For a reason I took 3 days and still
 the auth bearer was working.
