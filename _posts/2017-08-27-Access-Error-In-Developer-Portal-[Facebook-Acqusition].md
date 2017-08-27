@@ -16,11 +16,11 @@ curl
 
 \ 'https://api.acqusition.com/message?v=27/08/2017&q=lol'
 
-{% endhighlight % }
+{% endhighlight %}
 
 Response
 
-{% highlight json% }
+{% highlight json %}
 
 {"msg_id":"0VC6sbwXPAGdN9cVo","_text":"lol",
 "outcomes":[{"confidence":0.52,"intent":"lol",
@@ -28,7 +28,7 @@ Response
 "entities":{}}],
 "WARNING":"DEPRECATED"}
 
-{% endhighlight % }
+{% endhighlight %}
 
 Even after removing the developer, If he still has access to the previous bearer api calls were returning response.
 When reported to facebook they replied it might be due to cache issues and may take minutes to delete. For a reason I took 3 days and still
