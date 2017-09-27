@@ -5,6 +5,7 @@ much easy.
 I stumbled upon a bug which was killing my time and stopped me almost for a week in development process.
 There is a end point in my parse api which will be returning queries. This is how it looks:
 Request ->
+
 {% highlight javascript %}
 function getdata(){
 var data = JSON.stringify({limit: 20, order: "-createdAt" , _method: "GET"});
@@ -16,6 +17,7 @@ var data = JSON.stringify({limit: 20, order: "-createdAt" , _method: "GET"});
 {% endhighlight %}
 
 Response ->
+
 {% highlight json %}
 
 {"results":[{"objectId":"przMgvyI1N","executionStatus":["basic-switch-identify-multiple-versions-channels"].........
@@ -30,6 +32,7 @@ Tried functions such as setInterval to low level functions for accessing the obj
 Updated my fetch function to:
 
 {% highlight javascript %}
+
 function getdata(){
 var data = JSON.stringify({limit: 20, order: "-createdAt" , _method: "GET"});
   const URL = Parse.serverURL+"/classes/sync" ;
@@ -38,6 +41,7 @@ var data = JSON.stringify({limit: 20, order: "-createdAt" , _method: "GET"});
      .then( response => Promise.all([response, response.json()]));
      }
 {% endhighlight %}
+
 
 {% highlight javascript %}
 Added couple of actions to redux:
@@ -62,6 +66,8 @@ function fetchError() {
 {% endhighlight %}
 
 Now it is time for a reducer :
+
+
 {% highlight javascript %}
 
 const reducer = (state = {}, action) => {
@@ -76,6 +82,7 @@ const reducer = (state = {}, action) => {
 } 
 
 {% endhighlight %}
+
 
 {% highlight javascript %}
 function fetchWithRedux() {
@@ -112,5 +119,7 @@ componentDidMount(){
    }
   }
   {% endhighlight %}
+  
+  
   And the end result is first `loading....` and then the `objectId`. Async operations are difficult to design if UI/UX .
   The journey of react-redux and fetch continues.
