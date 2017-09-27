@@ -42,9 +42,11 @@ var data = JSON.stringify({limit: 20, order: "-createdAt" , _method: "GET"});
      }
 {% endhighlight %}
 
+Added couple of actions to redux:
+
 
 {% highlight javascript %}
-Added couple of actions to redux:
+
 function fetchRequest(){
   return {
     type: "FETCH_REQUEST"
@@ -88,7 +90,7 @@ const reducer = (state = {}, action) => {
 function fetchWithRedux() {
   return (dispatch) => {
     dispatch(fetchRequest());
-    return fetchPosts().then(([response, json]) =>{
+    return getdata().then(([response, json]) =>{
       if(response.status === 200){
         dispatch(fetchSuccess(json))
       }
