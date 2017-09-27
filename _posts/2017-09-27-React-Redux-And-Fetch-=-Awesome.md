@@ -7,6 +7,7 @@ There is a end point in my parse api which will be returning queries. This is ho
 Request ->
 
 {% highlight javascript %}
+
 function getdata(){
 var data = JSON.stringify({limit: 20, order: "-createdAt" , _method: "GET"});
   const URL = Parse.serverURL+"/classes/sync" ;
@@ -14,6 +15,7 @@ var data = JSON.stringify({limit: 20, order: "-createdAt" , _method: "GET"});
   headers: headers})
      .then( response => return response.json());
      }
+     
 {% endhighlight %}
 
 Response ->
