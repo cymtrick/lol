@@ -86,7 +86,7 @@ const reducer = (state = {}, action) => {
 {% endhighlight %}
 
 
-{% highlight jsx %}
+{% highlight babel %}
 function fetchWithRedux() {
   return (dispatch) => {
     dispatch(fetchRequest());
@@ -123,5 +123,7 @@ componentDidMount(){
   {% endhighlight %}
   
   
-  And the end result is first `loading....` and then the `objectId`. Async operations are difficult to design if UI/UX .
+  And the end result is first `loading....` and then the `objectId`. 
   The journey of react-redux and fetch continues.
+  
+  Thanks for this snippet http://jsfiddle.net/cdagli/b2uq8704/6/ by Caner Dağlı 
