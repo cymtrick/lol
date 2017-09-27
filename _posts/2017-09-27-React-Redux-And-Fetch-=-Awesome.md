@@ -128,4 +128,4 @@ componentDidMount(){
   And the end result is first `loading....` and then the `objectId`. 
   The journey of react-redux and fetch continues.
   
-  Thanks for this snippet http://jsfiddle.net/cdagli/b2uq8704/6/ by Caner Dağlı 
+  Thanks for this snippet http://jsfiddle.net/cdagli/b2uq8704/6/ by Caner Dağlı .
