@@ -86,7 +86,9 @@ const reducer = (state = {}, action) => {
 {% endhighlight %}
 
 
-{% highlight babel %}
+
+{% highlight jsx %}
+
 function fetchWithRedux() {
   return (dispatch) => {
     dispatch(fetchRequest());
