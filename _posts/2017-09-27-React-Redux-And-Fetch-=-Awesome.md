@@ -25,9 +25,9 @@ Response ->
 {% endhighlight %}
 
 Fetch Module was built on Promises. This was a big problem as the react render doesn't wait for a particular time. Async requests
-take time to fetch the data, Before react renders the data. Anything assigned like `data = getData()` would return the `data` as `undefined`.
+take time to fetch the data, Before react renders the data. Anything assigned like `data = getData()` would return the `data` as `undefined` .
 
-Tried functions such as setInterval to low level functions for accessing the object after fetching. Then redux came into action and solved my problem in matter of minutes
+Tried functions such as setInterval to low level functions for accessing the object after fetching. Then redux came into action and solved my problem in matter of minutes.
 
 Updated my fetch function to:
 
@@ -40,6 +40,7 @@ var data = JSON.stringify({limit: 20, order: "-createdAt" , _method: "GET"});
   headers: headers})
      .then( response => Promise.all([response, response.json()]));
      }
+     
 {% endhighlight %}
 
 Added couple of actions to redux:
@@ -87,7 +88,7 @@ const reducer = (state = {}, action) => {
 
 
 
-{% highlight jsx %}
+{% highlight javascript %}
 
 function fetchWithRedux() {
   return (dispatch) => {
@@ -122,6 +123,7 @@ componentDidMount(){
     return (<ul>loading</ul>)
    }
   }
+  
   {% endhighlight %}
   
   
