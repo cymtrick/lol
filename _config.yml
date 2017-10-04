@@ -1,22 +1,22 @@
 # User Settings | Edit there as per required
 
-title: prashanthvarma
-url: "https://prashanthvarmadomma.github.io"
+title: cymtrick
+url: "https://cymtrick.github.io"
 baseurl: ""
 
 # This will show up at the top of index page
 site_heading: >
-    deadlock <span class="faded">'s blog</span>
+    cymtrick <span class="faded">'s blog</span>
 
-email: prashanthvarmadomma@gmail.com
-author: prashanthvarma
+email: prashanth@defmax.io
+author: cymtrick
 # This description will show up in google search results
 # (for index page) etc.
 description: >
     well, my life is pretty much ____ up
 
 # This will what will show against &copy; in the footer
-copyright: prashanth
+copyright: cymtirck
 # Toggle your short bio, which will displayed on your index page
 # Just toggle it and run jekyll again to see
 intro: true       # Tip: Remove the span from site_heading if intro is set to true
@@ -39,9 +39,9 @@ about_stub: >
 
 about_footer: true
 
-twitter_username: prashanth_scss
-github_username: prashanthvarmadomma
-facebook_id: prashanthvarmadomma
+twitter_username: cymtrick
+github_username: cymtrick
+facebook_id: cymtrick
 
 favicon: true
 favicon_location: "images/favicon.ico"
