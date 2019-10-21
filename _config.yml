@@ -47,7 +47,7 @@ favicon: true
 favicon_location: "images/favicon.ico"
 
 profile_picture: "/images/pp.png"
-paginate: 5
+paginate: 15
 paginate_path: "/page/:num"
 tracking_id:  # GA Tracking ID
 
