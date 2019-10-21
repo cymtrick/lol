@@ -1,7 +1,7 @@
 ---
 title: iCloud XXS'ed
 layout: post
-description: iCloud Notes Href XSS. At that time, I was lame noob. You people understand the expolit seeing the images.
+description: iCloud Notes Href XSS. At that time, I was lame noob. You people understand the exploit seeing the images.
 ---
 
 >iCloud Notes Href XSS. At that time, I was lame noob. You people understand the expolit seeing the images.
